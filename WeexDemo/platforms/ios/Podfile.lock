@@ -1,0 +1,57 @@
+PODS:
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SensorsAnalyticsSDK (4.5.12):
+    - SensorsAnalyticsSDK/Core (= 4.5.12)
+  - SensorsAnalyticsSDK/__Store (4.5.12)
+  - SensorsAnalyticsSDK/AutoTrack (4.5.12):
+    - SensorsAnalyticsSDK/Common
+  - SensorsAnalyticsSDK/Base (4.5.12):
+    - SensorsAnalyticsSDK/__Store
+  - SensorsAnalyticsSDK/Common (4.5.12):
+    - SensorsAnalyticsSDK/Extension
+  - SensorsAnalyticsSDK/Core (4.5.12):
+    - SensorsAnalyticsSDK/Common
+    - SensorsAnalyticsSDK/Visualized
+  - SensorsAnalyticsSDK/Extension (4.5.12):
+    - SensorsAnalyticsSDK/Base
+  - SensorsAnalyticsSDK/Visualized (4.5.12):
+    - SensorsAnalyticsSDK/AutoTrack
+  - SocketRocket (0.4.2)
+  - WeexPluginLoader (0.0.1.9.1):
+    - WeexSDK
+  - WeexSDK (0.30.0)
+  - WeexSensorsDataAnalyticsModule (1.0.0):
+    - SensorsAnalyticsSDK (>= 4.4.1)
+
+DEPENDENCIES:
+  - SDWebImage (= 3.7.5)
+  - SocketRocket (= 0.4.2)
+  - WeexPluginLoader
+  - WeexSDK
+  - WeexSensorsDataAnalyticsModule (from `../../../ios`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SensorsAnalyticsSDK
+    - SocketRocket
+    - WeexPluginLoader
+    - WeexSDK
+
+EXTERNAL SOURCES:
+  WeexSensorsDataAnalyticsModule:
+    :path: "../../../ios"
+
+SPEC CHECKSUMS:
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SensorsAnalyticsSDK: e355429d1f1c36dcb8693865f63cba42cc3d69bc
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
+  WeexSDK: 8e01e33244f51cb11f9f000b5200d93de5f4fa97
+  WeexSensorsDataAnalyticsModule: a981d5556ccc7e57abbbbc90cd0e21bed55d2f9c
+
+PODFILE CHECKSUM: 116806a329cd4a7f54bc916839f4d22a47e3e11a
+
+COCOAPODS: 1.12.1

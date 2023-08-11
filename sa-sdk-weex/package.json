@@ -1,0 +1,15 @@
+{
+  "name": "sa-sdk-weex",
+  "version": "1.0.0",
+  "description": "神策分析 Weex SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sensors",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "sa-sdk-javascript": "^1.25.13",
+    "wrenchjs": "^1.0.15"
+  }
+}
