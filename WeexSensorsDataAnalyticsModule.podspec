@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "ios/WeexSensorsDataAnalyticsModule/WeexSensorsDataAnalyticsModule.h"
   s.requires_arc = true
   s.dependency "SensorsAnalyticsSDK", ">= 4.4.1"
+  s.dependency "WeexSDK"
   # WeexPluginLoader.framework only supports x86_64 simulators.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
 
