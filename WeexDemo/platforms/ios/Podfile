@@ -7,5 +7,5 @@ target 'WeexDemo' do
   pod 'WeexPluginLoader'
   pod 'SDWebImage', '3.7.5'
   pod 'SocketRocket', '0.4.2'
-  pod 'WeexSensorsDataAnalyticsModule',:path => "../../../ios"
+  pod 'WeexSensorsDataAnalyticsModule',:path => "../../.."
 end

@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, "9.0"
   s.source       = { :git => 'https://github.com/sensorsdata/sa-sdk-weex.git', :tag => "v#{s.version}" }
   s.source_files = "ios/WeexSensorsDataAnalyticsModule/*.{h,m}"
-  s.public_header_files = "WeexSensorsDataAnalyticsModule/WeexSensorsDataAnalyticsModule.h"
+  s.public_header_files = "ios/WeexSensorsDataAnalyticsModule/WeexSensorsDataAnalyticsModule.h"
   s.requires_arc = true
   s.dependency "SensorsAnalyticsSDK", ">= 4.4.1"
   # WeexPluginLoader.framework only supports x86_64 simulators.
